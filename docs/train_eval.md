@@ -1,5 +1,4 @@
 ## Train & Inference
-### 1st stage
 #### Train
 ```shell
 tools/dist_train.sh $path_to_config$ 8
