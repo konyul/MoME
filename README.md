@@ -6,7 +6,7 @@ Konyul Park<sup>1</sup> \*, Yecheol Kim<sup>2,3</sup> \*, Daehoon Kim<sup>2</sup
  
 <sup>1</sup> Seoul National University, Korea <sup>2</sup> Hanyang University, Korea, <sup>3</sup> LG AI Research, Korea
 
-(\*) equal contribution, (<sup>**</sup>) corresponding author.
+(\*) equal contribution, (\**) corresponding author.
 
 </div>
 
