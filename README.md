@@ -29,6 +29,8 @@ In this study, we introduce an efficient and robust LiDAR-camera 3D object detec
 | | | | 4 beams | all | ±60 | 0.5 | all |  |  |  |
 | MoME | 2 Epochs | 73.6 | 63.0 | 48.2 | 58.3 | 71.0 | 69.5 | 70.5 | [config](https://github.com/konyul/MoME/blob/main/projects/configs/mome/mome.py) | [weight](https://drive.google.com/file/d/1dFwy-eUrTMVJkoufT58rwvqis5lfOoEH/view?usp=sharing) |
 
+## Notes
+We Evaluate MoME on [nuScenes-R](https://github.com/ADLab-AutoDrive/lidar-camera-robust-benchmark) and [nuScenes-C](https://github.com/thu-ml/3D_Corruptions_AD)
 
 ## Getting Started
 - [Installation](docs/install.md)
