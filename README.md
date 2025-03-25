@@ -2,7 +2,7 @@
 <h1>[CVPR2025] MoME </h1>
 <h3>Resilient Sensor Fusion under Adverse Sensor Failures via Multi-Modal Expert Fusion</h3>
 
-Konyul Park<sup>1</sup> \*, Yecheol Kim<sup>2,3</sup> \*, Daehoon Kim<sup>2</sup>, Jun Won Choi<sup>1</sup> \**
+Konyul Park<sup>1</sup> \*, Yecheol Kim<sup>2,3</sup> \*, Daehun Kim<sup>2</sup>, Jun Won Choi<sup>1</sup> \**
  
 <sup>1</sup> Seoul National University, Korea <sup>2</sup> Hanyang University, Korea, <sup>3</sup> LG AI Research, Korea
 
