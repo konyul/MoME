@@ -21,21 +21,13 @@ In this study, we introduce an efficient and robust LiDAR-camera 3D object detec
 
 ## Models
 
-## Qualitative results on nuScenes and nuScenes-R dataset 
+## Qualitative results (NDS) on nuScenes and nuScenes-R dataset 
 
-|Methods|Modality|Multi-Task|mAP(val)|NDS(val)|
-|:----|:----|:----|:----|:----|
-|MetaBEV-Transfusion|Camera|x|49.4|49.7|
-|MetaBEV-Centerhead|Camera|x|55.5|60.4|
-|MetaBEV-Transfusion|LiDAR|x|62.5|68.6|
-|MetaBEV-Centerhead|LiDAR|x|64.2|69.3|
-|MetaBEV-Transfusion|Camera+LiDAR|x|68|71.5|
-|MetaBEV-Transfusion|Camera+LiDAR|√|65.4|69.8|
 
-|Method|Lr Schd|Clean (NDS)|Beam Reduction (NDS)|LiDAR Drop (NDS)|Limited FOV (NDS)|Object Failure (NDS)|View Drop (NDS)|Occlusion (NDS)| config | weight |
+|Method|Training Schedule|Clean|Beam Reduction|LiDAR Drop|Limited FOV|Object Failure|View Drop|Occlusion| config | weight |
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
-| | | | 4 beams | all | [-60, 60] | rate = 0.5 | 6 drops | w obstacle |  |  |
-| MoME (ours) | 2ep | 73.6 | 63.0 | 48.2 | 58.3 | 71.0 | 69.5 | 70.5 | [config](https://github.com/konyul/MoME/blob/main/projects/configs/mome/mome.py) | [weight](https://drive.google.com/file/d/1dFwy-eUrTMVJkoufT58rwvqis5lfOoEH/view?usp=sharing) |
+| | | | 4 beams | all | ±60 | 0.5 | all |  |  |  |
+| MoME | 2 Epochs | 73.6 | 63.0 | 48.2 | 58.3 | 71.0 | 69.5 | 70.5 | [config](https://github.com/konyul/MoME/blob/main/projects/configs/mome/mome.py) | [weight](https://drive.google.com/file/d/1dFwy-eUrTMVJkoufT58rwvqis5lfOoEH/view?usp=sharing) |
 
 
 ## Getting Started

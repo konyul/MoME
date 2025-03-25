@@ -8,7 +8,7 @@ docker pull kyparkk/mome:python3.8_torch1.11.0_cu113
 docker run --gpus all --shm-size=512g -it -v {DATA_DIR}:{DATA_DIR} kyparkk/mome:python3.8_torch1.11.0_cu113 /bin/bash
 ```
 
-**b. Clone Mask2Map.**
+**b. Clone MoME.**
 ```
 git clone https://github.com/konyul/MoME.git
 ```
