@@ -1,0 +1,8 @@
+mmdet==2.24.0
+mmsegmentation==0.29.1
+mmdet3d==1.0.0rc5
+spconv-cu111
+flash-attn==0.2.2
+numpy==1.23.5
+setuptools==59.5.0
+yapf==0.40.1
