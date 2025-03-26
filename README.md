@@ -7,19 +7,16 @@ Konyul Park<sup>1</sup> \*, Yecheol Kim<sup>2,3</sup> \*, Daehun Kim<sup>2</sup>
 <sup>1</sup> Seoul National University, Korea <sup>2</sup> Hanyang University, Korea, <sup>3</sup> LG AI Research, Korea
 
 (\*) equal contribution, (\**) corresponding author.
-
+ArXiv Preprint ([arXiv 2407.13517](https://arxiv.org/abs/2503.19776))
 </div>
 
 ![overall](assets/ov.png "framework")
 
-## Updates
-
 ## Upcomings
+Prepare code for failure scenarios on nuScenes-R and nuScenes-C.
 
 ## Introduction
 In this study, we introduce an efficient and robust LiDAR-camera 3D object detector, referred to as MoME, which can achieve robust performance through a mixture of experts approach. Our MoME fully decouples modality dependencies using three parallel expert decoders, which use camera features, LiDAR features, or a combination of both to decode object queries, respectively. We propose Multi-Expert Decoding (MED) framework, where each query is decoded selectively using one of three expert decoders. MoME utilizes an Adaptive Query Router (AQR) to select the most appropriate expert decoder for each query based on the quality of camera and LiDAR features. This ensures that each query is processed by the best-suited expert, resulting in robust performance across diverse sensor failure scenarios. We evaluated the performance of MoME on the nuScenes-R benchmark. Our MoME achieved state-of-the-art performance in extreme weather and sensor failure conditions, significantly outperforming the existing models across various sensor failure scenarios.
-
-## Models
 
 ## Qualitative results (NDS) on nuScenes and nuScenes-R dataset 
 
@@ -36,9 +33,6 @@ We Evaluate MoME on [nuScenes-R](https://github.com/ADLab-AutoDrive/lidar-camera
 - [Installation](docs/install.md)
 - [Prepare Dataset](docs/prepare_dataset.md)
 - [Train and Eval](docs/train_eval.md)
-
-
-## Demo
 
 ## Acknowledgements
 
