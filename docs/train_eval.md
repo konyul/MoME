@@ -1,7 +1,7 @@
 ## Train & Inference
 #### Train
 
-Train First Stage
+Train 1st Stage
 
 ```shell
 tools/dist_train.sh ./projects/configs/moad_voxel0075_vov_1600x640_cbgs.py 8
