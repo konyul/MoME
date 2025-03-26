@@ -7,6 +7,7 @@ Konyul Park<sup>1</sup> \*, Yecheol Kim<sup>2,3</sup> \*, Daehun Kim<sup>2</sup>
 <sup>1</sup> Seoul National University, Korea <sup>2</sup> Hanyang University, Korea, <sup>3</sup> LG AI Research, Korea
 
 (\*) equal contribution, (\**) corresponding author.
+
 ArXiv Preprint ([arXiv 2407.13517](https://arxiv.org/abs/2503.19776))
 </div>
 
