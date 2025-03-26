@@ -46,3 +46,10 @@ MoME is based on [MEFormer](https://github.com/hanchaa/MEFormer). It is also gre
 
 ## Citation
 If you find MoME is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+```bibtex
+@misc{MoME,
+      title={Resilient Sensor Fusion under Adverse Sensor Failures via Multi-Modal Expert Fusion}, 
+      author={Konyul Park and Yecheol Kim and Daehun Kim and Jun Won Choi},
+      year={2025}
+}
+```
