@@ -44,4 +44,5 @@ If you find MoME is useful in your research or applications, please consider giv
   author={Park, Konyul and Kim, Yecheol and Kim, Daehun and Choi, Jun Won},
   journal={arXiv preprint arXiv:2503.19776},
   year={2025}
-}```
+}
+```
