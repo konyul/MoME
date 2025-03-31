@@ -346,8 +346,7 @@ momentum_config = dict(
     target_ratio=(0.8947368421052632, 1),
     cyclic_times=1,
     step_ratio_up=0.4)
-#total_epochs = 6
-total_epochs = 2
+total_epochs = 6
 checkpoint_config = dict(interval=1)
 log_config = dict(
     interval=50,
